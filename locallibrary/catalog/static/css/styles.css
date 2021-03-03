@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+
+body {
+    background-image: url(images/iStock.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+    font-family: 'Lobster', cursive;
+
+}
+
+a {
+    color: goldenrod;
+    font-weight: bold;
+}

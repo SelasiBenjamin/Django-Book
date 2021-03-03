@@ -1,12 +1,14 @@
 {% extends "base_generic.html" %}
 
 {% block title %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <title>The Book Library</title>
 {% endblock %}
 
 {% block content %}
-  <h1>Local Library Home</h1>
-  <p>Welcome to LocalLibrary, a website developed by <em>Mozilla Developer Network</em>!</p>
+  <h1>Local Library </h1>
+  <p>Welcome to LocalLibrary, a website developed by <em>Selasi Benjamin</em>!</p>
   <h2>Dynamic content</h2>
   <p>The library has the following record counts:</p>
   <ul>
@@ -16,4 +18,6 @@
     <li><strong>Authors:</strong> {{ num_authors }}</li>
     <li><strong>Romance Genres:</strong> {{ num_romance }}</li>
 </ul>
+
+
 {% endblock %}
